@@ -5,7 +5,7 @@ class app
         console.log("hallo wereld")
         let appnaam ="jgjfnf";
         let versienaam = 2.4;
-        let versiedatum = Date;
+        let versiedatum = Date();
         let authur = "jandecoolen";
         let copyright = "janusinc";
         let distributeur = "jandedistribeurder";
