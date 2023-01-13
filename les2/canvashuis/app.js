@@ -45,14 +45,47 @@ class App
         g.closePath();
         g.stroke();
         g.fill();
+        
+        g.fillStyle = "#ffff00"
+        g.beginPath()
+        g.moveTo(675,348);
+        g.lineTo(725,319);
+        g.lineTo(725,235);
+        g.lineTo(675,264);
+        g.lineTo(675,348)
+        g.closePath();
+        g.stroke();
+        g.fill();
 
-        g.fillStyle = "blue"
+        g.fillStyle = "#000000"
+        g.beginPath()
+        g.moveTo(650,550);
+        g.lineTo(650,425);
+        g.lineTo(750,378);
+        g.lineTo(750,498);        
+        g.closePath();
+        g.stroke();
+        g.fill();
+
+        g.fillStyle = "#000000"
         g.beginPath()
         g.moveTo(250,350);
         g.lineTo(250,450);
-        g.lineTo(350,500);
-        g.lineTo(350,400);
-        g.lineTo(250,350)
+        g.lineTo(350,475);
+        g.lineTo(350,375);
+        g.lineTo(250,350);
+        g.closePath();
+        g.stroke();
+        g.fill();
+
+        
+        g.fillStyle = "green"
+        g.beginPath()
+        g.moveTo(475,570);
+        g.lineTo(475,400);
+        g.lineTo(550,420);
+        g.lineTo(550,588);
+        g.lineTo(475,570);
         g.closePath();
         g.stroke();
         g.fill();
