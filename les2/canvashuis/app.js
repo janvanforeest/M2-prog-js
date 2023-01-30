@@ -8,72 +8,72 @@ class App
         console.log(canvas);
         g.fillStyle = "#ff4500";     
         g.beginPath();
-        g.moveTo(300,100);
-        g.lineTo(700,200);
-        g.lineTo(600,400);
-        g.lineTo(200,300);
-        g.lineTo(300,100);
+        g.moveTo(30,10);
+        g.lineTo(70,20);
+        g.lineTo(60,40);
+        g.lineTo(20,30);
+        g.lineTo(30,10);
         g.closePath();
         g.stroke();
         g.fill();
 
         g.fillStyle = "#8b4513"
         g.beginPath()
-        g.moveTo(200,300);
-        g.lineTo(200,500);
-        g.lineTo(600,600);
-        g.lineTo(600,400);
+        g.moveTo(20,30);
+        g.lineTo(20,50);
+        g.lineTo(60,60);
+        g.lineTo(60,40);
         g.closePath();
         g.stroke();
         g.fill();
 
         g.fillStyle = "#8b4513"
         g.beginPath()
-        g.moveTo(600,400);
-        g.lineTo(600,600);
-        g.lineTo(800,500);
-        g.lineTo(800,300);
+        g.moveTo(60,40);
+        g.lineTo(60,60);
+        g.lineTo(80,50);
+        g.lineTo(80,30);
         g.closePath();
         g.stroke();
         g.fill();
 
         g.fillStyle = "#8b4513"
         g.beginPath()
-        g.moveTo(600,400);
-        g.lineTo(700,200);
-        g.lineTo(800,300);
+        g.moveTo(60,40);
+        g.lineTo(70,20);
+        g.lineTo(80,30);
         g.closePath();
         g.stroke();
         g.fill();
         
         g.fillStyle = "#ffff00"
         g.beginPath()
-        g.moveTo(675,348);
-        g.lineTo(725,319);
-        g.lineTo(725,235);
-        g.lineTo(675,264);
-        g.lineTo(675,348)
+        g.moveTo(67.5,34.8);
+        g.lineTo(72.5,31.9);
+        g.lineTo(72.5,23.5);
+        g.lineTo(67.5,26.4);
+        g.lineTo(67.5,34.8)
         g.closePath();
         g.stroke();
         g.fill();
 
         g.fillStyle = "#000000"
         g.beginPath()
-        g.moveTo(650,550);
-        g.lineTo(650,425);
-        g.lineTo(750,378);
-        g.lineTo(750,498);        
+        g.moveTo(65,55);
+        g.lineTo(65,42.5);
+        g.lineTo(75,37.8);
+        g.lineTo(75,49.8);        
         g.closePath();
         g.stroke();
         g.fill();
 
         g.fillStyle = "#000000"
         g.beginPath()
-        g.moveTo(250,350);
-        g.lineTo(250,450);
-        g.lineTo(350,475);
-        g.lineTo(350,375);
-        g.lineTo(250,350);
+        g.moveTo(25,35);
+        g.lineTo(25,45);
+        g.lineTo(35,47.5);
+        g.lineTo(35,37.5);
+        g.lineTo(25,35);
         g.closePath();
         g.stroke();
         g.fill();
@@ -81,14 +81,18 @@ class App
         
         g.fillStyle = "green"
         g.beginPath()
-        g.moveTo(475,570);
-        g.lineTo(475,400);
-        g.lineTo(550,420);
-        g.lineTo(550,588);
-        g.lineTo(475,570);
+        g.moveTo(47.5,57);
+        g.lineTo(47.5,40);
+        g.lineTo(55,42);
+        g.lineTo(55,58.8);
+        g.lineTo(47.5,57);
         g.closePath();
         g.stroke();
         g.fill();
+    }
+    tekenHuis()
+    {
+        
     }
 }
 let app = new App();
