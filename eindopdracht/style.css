@@ -1,3 +1,14 @@
 canvas{
-    background: darkgray;
+    background: #000630;
+    border-color: black ;
+    border: 1px solid;
+}
+h1{
+    color: red;
+    font-size: 400%;
+    right: 64%;
+    top: 5%;
+    position: absolute;
+    font-family: 'Ceviche One', serif;
+    font-family: 'Open Sans', regular 400;
 }
